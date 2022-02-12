@@ -1,0 +1,20 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node consumerService.js",
+    "book-service": "node books/index.js",
+    "animal-service": "node animals/index.js",
+    "fruit-service": "node fruits/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2"
+  }
+}
